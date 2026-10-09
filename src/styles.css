@@ -1,1 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --morado: #6A1B9A;
+  --morado-oscuro: #4A148C;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+}
+
+.bg-morado {
+  background-color: #6A1B9A !important;
+  color: white !important;
+}
+
+.bg-morado-oscuro {
+  background-color: #4A148C !important;
+  color: white !important;
+}
+
+.texto-morado {
+  color: #6A1B9A !important;
+}
+
+.btn-morado {
+  background-color: #6A1B9A;
+  color: white;
+  border: none;
+}
+
+.btn-morado:hover {
+  background-color: #4A148C;
+  color: white;
+}
+
+.card-noticia {
+  border-left: 4px solid #6A1B9A;
+  transition: transform 0.3s;
+}
+
+.card-noticia:hover {
+  transform: translateX(5px);
+}
